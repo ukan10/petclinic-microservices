@@ -186,8 +186,11 @@ resource "aws_instance" "worker-1" {
         environment = "dev"
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> feature/msp-16
 resource "aws_instance" "worker-2" {
     ami = "ami-013f17f36f8b1fefb"
     instance_type = "t3a.medium"
